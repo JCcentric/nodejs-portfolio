@@ -20,7 +20,7 @@ const WorkTimeline: React.FC = () => {
       keyDuties: "Administer Windows and Linux servers for 9000+ users and 32 mission partners, ensuring system security, performance, and compliance with DoD standards. Lead a technical team while automating processes, troubleshooting vCenter/ESXi environments, and providing reports to leadership."
     },
     {
-      id: 1,
+      id: 2,
       years: "Apr 2018 – Jul 2020",
       job: "Graphic Designer, Freelance",
       workPlace: "BigGVisualz",
