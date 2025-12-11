@@ -45,7 +45,7 @@ const HeroSection: React.FC = () => {
             custom={0}
             variants={textVariants}
           >
-            Hi, I'm John Doe —
+            Hi, I'm Jared Gilbert —
           </motion.span>{" "}
           <motion.span 
             className="inline-block hero-text-gradient"
@@ -54,7 +54,7 @@ const HeroSection: React.FC = () => {
             custom={1}
             variants={textVariants}
           >
-            turning ideas into powerful digital products.
+            turning my obsession into powerful digital products.
           </motion.span>
         </motion.h1>
         
@@ -64,7 +64,7 @@ const HeroSection: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
         >
-          Building robust solutions with code, design, and caffeine.
+          Crafting code, designing dreams, fueled by creativity and coffee.
         </motion.p>
         
         <motion.div

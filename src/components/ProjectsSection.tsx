@@ -21,6 +21,13 @@ const ProjectsSection: React.FC = () => {
       techStack: ["React Native", "Expo", "Node.js", "Firebase", "Typescript"],
       url: "https://apps.apple.com/ma/app/tickr-countdown-timer/id6755743997"
     },
+    {
+      id: 1,
+      title: "Proejct 2",
+      description: 'Place-holder for second project information!',
+      techStack: ["this", "and", "that"],
+      url: ""
+    }
   ];
 
   const cardVariants = {
