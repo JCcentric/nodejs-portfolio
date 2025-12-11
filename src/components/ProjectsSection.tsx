@@ -16,46 +16,11 @@ const ProjectsSection: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "Project 1",
-      description: "xyz",
-      techStack: ["React", "Node.js", "Express"],
-      url: "#"
+      title: "Tickr: Countdown Timer",
+      description: "Personal event manager and exitment tracker, now on the iOS app store for iPhone!",
+      techStack: ["React Native", "Expo", "Node.js", "Firebase", "Typescript"],
+      url: "https://apps.apple.com/ma/app/tickr-countdown-timer/id6755743997"
     },
-    {
-      id: 2,
-      title: "Project 2",
-      description: "abc",
-      techStack: ["Vue.js", "Django", "MongoDB"],
-      url: "#"
-    },
-    {
-      id: 3,
-      title: "Project 3",
-      description: "123",
-      techStack: ["Angular", "Flask", "PostgreSQL"],
-      url: "#"
-    },
-    {
-      id: 4,
-      title: "Project 4",
-      description: "456",
-      techStack: ["Svelte", "Ruby on Rails", "MySQL"],
-      url: "#"
-    },
-    {
-      id: 5,
-      title: "Project 5",
-      description: "789",
-      techStack: ["Next.js", "Spring Boot", "SQLite"],
-      url: "#"     
-    },
-    {
-      id : 6,
-      title: "Project 6",
-      description: "101",
-      techStack: ["Golang", "ASP.NET", "Firebase"],
-      url: "#"
-    }
   ];
 
   const cardVariants = {
