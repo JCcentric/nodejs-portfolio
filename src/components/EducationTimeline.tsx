@@ -16,7 +16,7 @@ const EducationTimeline: React.FC = () => {
       id: 1,
       years: "2023–2025",
       degree: "B.S. Software Engineering",
-      institution: "IIT Dholakpur",
+      institution: "Western Governors University",
       grade: ""
     },
     {
