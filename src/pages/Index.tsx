@@ -6,7 +6,6 @@ import TechMarquee from '@/components/TechMarquee';
 import ProjectsSection from '@/components/ProjectsSection';
 import EducationTimeline from '@/components/EducationTimeline';
 import WorkTimeline from '@/components/WorkTimeline';
-import BlogSection from '@/components/BlogSection';
 import ContactSection from '@/components/ContactSection';
 
 const Index: React.FC = () => {
@@ -86,7 +85,7 @@ const Index: React.FC = () => {
                 </li>
                 <li>
                   <a 
-                    href="/resume.pdf" 
+                    href="/Jared Gilbert - CV v1.2.0.pdf" 
                     className="cta-button-premium text-sm px-4 py-1"
                   >
                     Resume
@@ -103,7 +102,6 @@ const Index: React.FC = () => {
           <ProjectsSection />
           <EducationTimeline />
           <WorkTimeline />
-          <BlogSection />
           <ContactSection />
         </main>
         

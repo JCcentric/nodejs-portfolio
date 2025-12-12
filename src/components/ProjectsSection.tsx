@@ -20,13 +20,6 @@ const ProjectsSection: React.FC = () => {
       description: "Personal event manager and exitment tracker, now on the iOS app store for iPhone!",
       techStack: ["React Native", "Expo", "Node.js", "Firebase", "Typescript"],
       url: "https://apps.apple.com/ma/app/tickr-countdown-timer/id6755743997"
-    },
-    {
-      id: 1,
-      title: "Proejct 2",
-      description: 'Place-holder for second project information!',
-      techStack: ["this", "and", "that"],
-      url: ""
     }
   ];
 

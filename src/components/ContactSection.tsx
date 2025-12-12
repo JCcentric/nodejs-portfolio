@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Github, Twitter, Linkedin } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 import { toast } from 'sonner';
 
 const ContactSection: React.FC = () => {
@@ -18,16 +18,35 @@ const ContactSection: React.FC = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
   
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
-      toast.success('Message sent successfully!');
-      setFormData({ name: '', email: '', message: '' });
-      setIsSubmitting(false);
-    }, 1500);
+    try{
+      const data = new FormData();
+      data.append("access_key", "6df0c3f8-ee1d-4247-80b9-a78ef4a097a0");
+      data.append('name', formData.name);
+      data.append('email', formData.email);
+      data.append('message', formData.message);
+
+      const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: data
+      });
+
+      const result = await response.json();
+
+      if(response.ok) {
+        toast.success("Message sent successfully!");
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        toast.error(`Error: ${result.message || 'Something went wrong'}`);
+      }
+    } catch{
+      toast.error("An error occurred while sending the message.");
+    }
+
+    setIsSubmitting(false);
   };
 
   return (
