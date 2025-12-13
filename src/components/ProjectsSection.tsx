@@ -17,7 +17,7 @@ const ProjectsSection: React.FC = () => {
     {
       id: 1,
       title: "Tickr: Countdown Timer",
-      description: "Personal event manager and exitment tracker, now on the iOS app store for iPhone!",
+      description: "Personal event manager and excitement tracker, now on the iOS app store for iPhone!",
       techStack: ["React Native", "Expo", "Node.js", "Firebase", "Typescript"],
       url: "https://apps.apple.com/ma/app/tickr-countdown-timer/id6755743997"
     }
