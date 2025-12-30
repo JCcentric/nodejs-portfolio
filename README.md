@@ -1,4 +1,4 @@
-# Modern Portfolio Template 🚀
+# Portfolio Webpage
 
 A sleek, modern portfolio built from template with React, Vite, and Framer Motion. This features a stunning black and white design with smooth animations and a polished user interface.
 
@@ -11,10 +11,8 @@ A sleek, modern portfolio built from template with React, Vite, and Framer Motio
 - Dark mode optimized
 - SEO friendly
 - Modern development practices
-- Blog section included
 - Project showcase
-- Contact form
-- Easy to customize
+- Contact form 
 
 ## 🛠️ Tech Stack
 
@@ -25,7 +23,7 @@ A sleek, modern portfolio built from template with React, Vite, and Framer Motio
 - Framer Motion
 - Lucide Icons
 
-## 🚀 Getting Started
+## 🚀 Getting Started from original template
 
 1. Clone the repository:
 ```bash
