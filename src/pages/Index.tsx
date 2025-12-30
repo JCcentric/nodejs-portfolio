@@ -85,7 +85,7 @@ const Index: React.FC = () => {
                 </li>
                 <li>
                   <a 
-                    href="/Jared Gilbert - CV v2.1.0.pdf" 
+                    href="/Jared Gilbert - CV v2.3.0.pdf" 
                     className="cta-button-premium text-sm px-4 py-1"
                   >
                     Resume
